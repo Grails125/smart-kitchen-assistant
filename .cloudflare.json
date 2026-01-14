@@ -1,0 +1,23 @@
+{
+    "$schema": "https://developers.cloudflare.com/pages/platform/build-configuration/",
+    "build": {
+        "command": "npm run build",
+        "cwd": "/",
+        "watch_paths": [
+            "**/*.ts",
+            "**/*.tsx",
+            "**/*.js",
+            "**/*.jsx",
+            "**/*.css",
+            "**/*.html"
+        ]
+    },
+    "build_output_directory": "dist",
+    "compatibility_date": "2024-01-01",
+    "compatibility_flags": [],
+    "deployment": {
+        "environment_variables": {
+            "NODE_VERSION": "20"
+        }
+    }
+}
